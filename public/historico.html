@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>Histórico</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>Histórico de Movimentações</h1>
+
+<table>
+
+    <thead>
+
+        <tr>
+            <th>Data/Hora</th>
+            <th>Tipo</th>
+            <th>Item</th>
+            <th>Quantidade</th>
+        </tr>
+
+    </thead>
+
+    <tbody id="historicoTabela">
+    </tbody>
+
+</table>
+
+<button onclick="exportarHistoricoPDF()">
+    Exportar PDF
+</button>
+
+<a href="index.html">
+    <button>
+        Voltar
+    </button>
+</a>
+
+<script src="historico.js"></script>
+
+</body>
+</html>

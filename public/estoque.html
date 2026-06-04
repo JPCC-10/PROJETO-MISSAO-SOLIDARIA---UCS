@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<title>
+Estoque Atual
+</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h1>Estoque Atual</h1>
+
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th>Item</th>
+                <th>Quantidade</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="tabela">
+        </tbody>
+
+    </table>
+
+        <button onclick="resetarEstoque()">
+            Resetar Estoque
+        </button>
+
+        <button onclick="exportarEstoquePDF()">
+            Exportar PDF
+        </button>
+
+    <a href="index.html">
+        <button>Voltar
+        </button>
+    </a>
+
+</div>
+
+<script src="estoque.js"></script>
+
+</body>
+
+</html>
