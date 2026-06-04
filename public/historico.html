@@ -13,35 +13,43 @@
 
 <body>
 
-<h1>Histórico de Movimentações</h1>
+<div class="container">
 
-<table>
+    <h1>Histórico de Movimentações</h1>
 
-    <thead>
+    <table>
 
-        <tr>
-            <th>Data/Hora</th>
-            <th>Tipo</th>
-            <th>Item</th>
-            <th>Quantidade</th>
-        </tr>
+        <thead>
 
-    </thead>
+            <tr>
+                <th>Data/Hora</th>
+                <th>Tipo</th>
+                <th>Item</th>
+                <th>Quantidade</th>
+            </tr>
 
-    <tbody id="historicoTabela">
-    </tbody>
+        </thead>
 
-</table>
+        <tbody id="historicoTabela">
+        </tbody>
 
-<button onclick="exportarHistoricoPDF()">
-    Exportar PDF
-</button>
+    </table>
 
-<a href="index.html">
-    <button>
-        Voltar
-    </button>
-</a>
+    <div class="botoes">
+
+        <button onclick="exportarHistoricoPDF()">
+            Exportar PDF
+        </button>
+
+        <a href="index.html">
+            <button>
+                Voltar
+            </button>
+        </a>
+
+    </div>
+
+</div>
 
 <script src="historico.js"></script>
 
